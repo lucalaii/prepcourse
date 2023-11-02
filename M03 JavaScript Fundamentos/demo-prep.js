@@ -38,7 +38,7 @@ console.log("Hola Mundo")
 16 % 4 -> 0
 16 | 4
 0    4 */
-// Precedencia
+//? Precedencia
 // (4 + 5) * (2 - 1) = 9
 Math.pow(2,3)
 2 ** 3
