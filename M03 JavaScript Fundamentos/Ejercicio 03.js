@@ -20,9 +20,9 @@ function tienenMismaLongitud(str1, str2) {
   // ejemplo -> return "hola".length === "chaos".length
   // return str1.length === str2.length;
   // "hola" === "chao"
-  var longitud_str1 = str1.length;
-  var longitud_str2 = str2.length;
-  if (longitud_str1 === longitud_str2) return true; //"hola". length
+  //var longitud_str1 = str1.length;
+  //var longitud_str2 = str2.length;
+  if (str1.length === str2.length) return true; //"hola". length
   else return false;
 }
 console.log(tienenMismaLongitud("hola", "chaos"));
