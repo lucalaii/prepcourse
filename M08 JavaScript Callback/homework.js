@@ -53,8 +53,7 @@ function map(array, cb) {
    // Tu código:
    var nuevoArray = [];
    array.forEach(elem => {
-      elem = cb(elem);
-      nuevoArray.push(elem);
+      nuevoArray.push(cb(elem));
    });
    return nuevoArray;
 }
